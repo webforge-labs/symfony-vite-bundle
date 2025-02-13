@@ -2,3 +2,4 @@
 .idea/
 phpstan.neon
 phpunit.xml
+/var/.phpunit.cache

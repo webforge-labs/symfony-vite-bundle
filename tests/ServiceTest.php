@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 use PHPUnit\Framework\TestCase;
 use Vite\Dto\ViteManifestCssDto;
 use Vite\Dto\ViteManifestDto;
