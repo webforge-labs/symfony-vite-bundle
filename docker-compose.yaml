@@ -1,0 +1,9 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: config/docker/php/Dockerfile
+
+    volumes:
+      - .:/app
+      - /var/www/.cache

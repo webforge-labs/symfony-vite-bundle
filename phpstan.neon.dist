@@ -1,0 +1,15 @@
+includes:
+#    - vendor/phpstan/phpstan-doctrine/extension.neon
+#    - vendor/phpstan/phpstan-symfony/extension.neon
+#    - vendor/phpstan/phpstan-phpunit/extension.neon
+#    - config/phpstan/phpstan-symfony.php
+    #- phpstan-baseline.neon
+    #- vendor/dave-liddament/phpstan-php-language-extensions/extension.neon
+
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+
+    editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%&project=symfony-vite-bundle'
