@@ -1,4 +1,8 @@
 {
+  "name": "webforge/symfony-vite-bundle",
+  "description": "A symfony bundle to integrates vite js frontend builds.",
+  "type": "symfony-bundle",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Vite\\": "src/Vite/"
@@ -6,8 +10,15 @@
   },
   "require": {
     "php": ">=8.2",
-    "cuyz/valinor": ">=1.0.0",
-    "symfony/framework-bundle": "*",
-    "symfony/http-client": "*"
-  }
+    "cuyz/valinor": "^1.0.0",
+    "symfony/framework-bundle": "^6.0 || ^7.0",
+    "symfony/http-client": "^6.0 || ^7.0"
+  },
+  "authors": [
+    {
+      "name": "Philipp Scheit",
+      "email": "p.scheit@ps-webforge.com"
+    }
+  ],
+  "minimum-stability": "stable"
 }
