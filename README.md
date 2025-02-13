@@ -104,3 +104,16 @@ export default defineConfig({
 ```
 
 Adjust "allowedHosts", manually with the same domain you reference in `VITE_DEV_SERVER`.
+
+## Contribute
+
+Install casey/just
+
+```bash
+just up
+```
+
+```bash
+prep
+```
+(runs phpunit, phpstan, everything you need to make a commit).
