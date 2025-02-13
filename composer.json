@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Vite\\": "src/Vite/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "cuyz/valinor": ">=1.0.0",
+    "symfony/framework-bundle": "*",
+    "symfony/http-client": "*"
+  }
+}

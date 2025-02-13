@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+        public: true
+        bind:
+            string $devServerOrigin: '%env(VITE_DEV_SERVER)%'
+            string $cdnUrl: '%env(APP_CDN)%'
+
+    Vite\:
+        resource: '../../'
+        exclude: '../../Dto'
