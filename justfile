@@ -32,3 +32,6 @@ up:
 
 fix-docker-permissions:
     docker compose exec --user=root php bash -c "mkdir -p /var/www/.composer && chown -R 33:33 /var/www"
+
+release-interactive: phpstan phpunit
+    release-it

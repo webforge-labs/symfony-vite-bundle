@@ -3,3 +3,4 @@
 phpstan.neon
 phpunit.xml
 /var/.phpunit.cache
+/node_modules/
