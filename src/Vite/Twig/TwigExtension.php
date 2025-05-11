@@ -19,13 +19,13 @@ class TwigExtension extends AbstractExtension
         return [
             new TwigFunction(
                 'vite_entry_link_tags', [$this, 'entryLinkTags'], [
-                    'is_safe' => ['html' => true],
+                    'is_safe' => ['html'],
                     'needs_environment' => true
                 ]
             ),
             new TwigFunction(
                 'vite_entry_script_tags', [$this, 'entryScriptTags'], [
-                    'is_safe' => ['html' => true],
+                    'is_safe' => ['html'],
                     'needs_environment' => true
                 ]
             ),
