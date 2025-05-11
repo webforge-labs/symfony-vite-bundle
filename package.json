@@ -4,5 +4,6 @@
   },
   "devDependencies": {
     "release-it": "^19.0.2"
-  }
+  },
+  "version": "1.0.0-beta2.0"
 }
