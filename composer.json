@@ -10,7 +10,7 @@
   },
   "require": {
     "php": ">=8.2",
-    "cuyz/valinor": "^1.0.0",
+    "cuyz/valinor": "^1.0 || ^2.0",
     "symfony/framework-bundle": "^6.0 || ^7.0",
     "symfony/http-client": "^6.0 || ^7.0",
     "symfony/twig-bundle": "^6.0 || ^7.0"
