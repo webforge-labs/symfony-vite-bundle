@@ -2,6 +2,8 @@
 
 Integrate symfony with vite
 
+DEPRECATED: use https://packagist.org/packages/pentatrion/vite-bundle instead. 
+
 ## installation
 
 add
